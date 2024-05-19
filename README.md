@@ -12,7 +12,9 @@ Kubernetes just an open source container orchestrator platform users still need 
 # Let's see benefits of Openshift vs Kubernetes
 
 kubernetes is a container orchestrator software that helps users managed group of hosts running Linux containers, In order to build,deploy,manage across distributed environment such as onprem, cloud, edge you require more then kubernetes
+
 RedHat Openshift provides a complete solution that includes a kubernetes engine with robust security and many integrated capabilities required to operationalize a complete application platform. It has several editions such as cloud service editions and self managed editions. 
+
 *Cloud service editions*
     Microsoft Azure Red Hat OpenShift
     Red Hat OpenShift Dedicated
