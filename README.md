@@ -15,12 +15,13 @@ kubernetes is a container orchestrator software that helps users managed group o
 
 RedHat Openshift provides a complete solution that includes a kubernetes engine with robust security and many integrated capabilities required to operationalize a complete application platform. It has several editions such as cloud service editions and self managed editions. 
 
-1.Cloud service editions
-    Microsoft Azure Red Hat OpenShift
-    Red Hat OpenShift Dedicated
-    Red Hat OpenShift on IBM Cloud
-    Red Hat OpenShift Service on AWS
-2.Self-managed editions
-    Red Hat OpenShift Platform Plus
-    Red Hat OpenShift Container Platform
-    Red Hat OpenShift Kubernetes Engine
+    1.Cloud service editions
+        Microsoft Azure Red Hat OpenShift
+        Red Hat OpenShift Dedicated
+        Red Hat OpenShift on IBM Cloud
+        Red Hat OpenShift Service on AWS
+        
+    2.Self-managed editions
+        Red Hat OpenShift Platform Plus
+        Red Hat OpenShift Container Platform
+        Red Hat OpenShift Kubernetes Engine
