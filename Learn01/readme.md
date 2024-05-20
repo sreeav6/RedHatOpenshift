@@ -32,8 +32,8 @@ Setting up web hooks to enable automated application builds.
 
 # Workshop is hosted on the openshift environment running on public cloud, the environment consits of the following systems.
 
-Master nodes
-Worker or (application) nodes
-Dynamic provisioned storage
-Private contaier registry
-Routing Layer
+  Master nodes
+  Worker or (application) nodes
+  Dynamic provisioned storage
+  Private contaier registry
+  Routing Layer
