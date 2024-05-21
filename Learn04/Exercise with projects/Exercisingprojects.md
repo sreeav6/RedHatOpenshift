@@ -31,6 +31,14 @@ If you want to examine even more you can check with the below command
             oc get pod (podname) -o yaml
 If you want to check all the details,Metrics, YAML, Environment, Logs, Events, Terminal.  You can click on the pod name which will open with all theses details you can check one by one of these ones.
 
-# Exaplained about the services as well in the mentioned doc please refer that how services play a important role 
+# Exaplained about the services as well in the mentioned doc please refer that how services play a important role.
+
+    > The service maps to a set of pods is via system of Labels and Selectors
+    > Services are assigned to a fixed IP address and many ports and porotocols can be mapped
+    > Services receives a unique IP address upon creation, Service IPs are fixed and never change for the life of service
+    > To view service  < oc get services >
+    > Labels are just key/value pairs. Any Pod in this Project that has a Label that matches the Selector will be associated 
+      with the Service. 
+    
 
 
