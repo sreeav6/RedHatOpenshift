@@ -28,7 +28,7 @@ Infact you can open terminal in the openshift only and examine the pods by runni
             oc get pods
 <img width="955" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/443627f2-f3d4-41d7-ac62-86ac6bf05a5f">
 If you want to examine even more you can check with the below command
-            oc get pod <podname> -o yaml
+            oc get pod (podname) -o yaml
 If you want to check all the details,Metrics, YAML, Environment, Logs, Events, Terminal.  You can click on the pod name which will open with all theses details you can check one by one of these ones.
 
 # Exaplained about the services as well in the mentioned doc please refer that how services play a important role 
