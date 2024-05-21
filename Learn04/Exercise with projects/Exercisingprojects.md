@@ -39,7 +39,7 @@ If you want to check all the details,Metrics, YAML, Environment, Logs, Events, T
     > To view service  < oc get services >
     > Labels are just key/value pairs. Any Pod in this Project that has a Label that matches the Selector will be associated 
       with the Service. 
-    > To see in detail oc describe service ( service name )
+    > To see in detail type "oc describe service ( service name )"
     
 
 
