@@ -14,3 +14,23 @@ Once you are in sandbox you make sure you are in Developer, from their click on 
     Finally click on create
 
 Everythig you will find in the above link in a detailed as a summary i have written for my understanding 
+
+# Examining the pod
+
+Finally if you want to know the details once it is deployed click on the runtime icon in the right side you will be seen the details of the pod.
+<img width="966" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/ec3206ff-f8a9-4c5e-a9bf-5262245ba90e">
+
+There is another way to check your pod swtich your account from Developer to Administrator and once you are in Administrator
+in the left pane click on the workloads under select pods.
+<img width="953" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/67c96bdf-afce-4051-9de4-17785c98e678">
+
+Infact you can open terminal in the openshift only and examine the pods by running the below commands.
+            oc get pods
+<img width="955" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/443627f2-f3d4-41d7-ac62-86ac6bf05a5f">
+If you want to examine even more you can check with the below command
+            oc get pod <podname> -o yaml
+If you want to check all the details,Metrics, YAML, Environment, Logs, Events, Terminal.  You can click on the pod name which will open with all theses details you can check one by one of these ones.
+
+# Exaplained about the services as well in the mentioned doc please refer that how services play a important role 
+
+
