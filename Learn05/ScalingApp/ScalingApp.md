@@ -14,7 +14,7 @@
    # To get deployment
    		oc get deployment 
    # To get ReplicaSet
-      		oc get rs
+      	oc get rs
         
 <img width="590" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/db5759b0-483e-4143-b9ce-8fb84e9a1582">
 <img width="557" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/c4d1f72e-4106-4d14-8b97-60b470b2b71b">
