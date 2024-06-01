@@ -52,6 +52,12 @@ As we have two pods running in place. As Openshift(RS) are actively monitoring t
       
  ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/c9323e13-9504-45b5-af50-3809bd702276)
 
+# Let's scale down to 1 
+
+	> oc scale --replicas 1 deployment <deployment name>
+	> oc get pods ( To see how many pods are in running state )
+ ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/3adc8658-704c-4413-b0f8-77d5a7863b5f)
+
 
 
 
