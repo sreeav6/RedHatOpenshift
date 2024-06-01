@@ -40,8 +40,8 @@
 # Let's work on SelfHealing
 As we have two pods running in place. As Openshift(RS) are actively monitoring the pod actual and desired state to be met.Here we will exercise by killing one pod and see how the RS will take an action and Self Heal it and making sure the desired number of pods to be in running state.
 
-  a) we will deleting one pod
-  		oc delete pod (pod-name) && oc get pods -w
+  a> we will deleting one pod
+  	oc delete pod (pod-name) && oc get pods -w
   <img width="587" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/03ab1628-cd86-46c0-ba53-0dc1e4f2cc70">
 
 
