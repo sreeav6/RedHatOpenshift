@@ -34,6 +34,7 @@
  
 # Now in the service Enpoints we will get where openshift will automatically maps endpoints to the service
    oc get endpoints <svc-name> 
+   
 <img width="430" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/e67678fe-f365-4b52-9746-031e7dc30d94">
 
    
