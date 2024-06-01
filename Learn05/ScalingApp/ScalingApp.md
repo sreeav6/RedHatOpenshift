@@ -19,4 +19,11 @@
 <img width="590" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/db5759b0-483e-4143-b9ce-8fb84e9a1582">
 <img width="557" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/c4d1f72e-4106-4d14-8b97-60b470b2b71b">
 
+	# Now we will scale our app
+ 		oc scale --replicas=2 deployment/parksmap
+![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/b99f5364-5e29-4461-a8c8-e81ea1dcbbe0)
+	# Now obeserve the ReplicaSet(RS) 
+ 		oc get rs
+![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/151cbc6c-bf6f-4d19-82f4-4b028ffb9b0a)
+
 
