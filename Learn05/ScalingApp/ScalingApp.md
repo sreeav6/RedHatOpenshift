@@ -45,6 +45,10 @@ As we have two pods running in place. As Openshift(RS) are actively monitoring t
   	oc delete pod (pod-name) && oc get pods -w
    
   <img width="587" alt="image" src="https://github.com/sreeav6/RedHatOpenshift/assets/139438620/03ab1628-cd86-46c0-ba53-0dc1e4f2cc70">
+  b> Finally it RS ensure the desired pods are in running state
+      oc get pods
+ ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/c9323e13-9504-45b5-af50-3809bd702276)
+
 
 
 
