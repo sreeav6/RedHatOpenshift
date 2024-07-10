@@ -9,11 +9,11 @@ Here you can create route in the openshift web console while creating deployment
 
 # First let's examine whether route exists or not by using the below command
         
-oc get route
+        oc get route
         
 # Secondly we will creating the route by taking service name
         
-oc get svc (here you copy the Name of the Service)
+        oc get svc (here you copy the Name of the Service)
         
 # Finally we will be creating the Route
         
