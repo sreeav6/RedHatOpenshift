@@ -7,21 +7,21 @@ You can optionally define the security such as TLS, for the ROUTE. If you want y
 # Let's Exexrcise the ROUTE In Openshift
 Here you can create route in the openshift web console while creating deployment itself, here we are exercising the ROUTE using terminal.
 
-First let's examine whether route exists or not by using the below command
+# First let's examine whether route exists or not by using the below command
         
 oc get route
         
-Secondly we will creating the route by taking service name
+# Secondly we will creating the route by taking service name
         
 oc get svc (here you copy the Name of the Service)
         
-Finally we will be creating the Route
+# Finally we will be creating the Route
         
 oc create route edge <name of the route(any name)> <service name>
                 
 oc create route edge parkmap --service=parksmap
         
-Now we need to verify the route by using the below command
+# Now we need to verify the route by using the below command
         
 oc get route
 
