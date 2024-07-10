@@ -9,14 +9,19 @@ Here you can create route in the openshift web console while creating deployment
 
         First let's examine whether route exists or not by using the below command
         oc get route
+        
         ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/9bd14da5-f619-40ab-a921-6f47c7bb8a24)
+        
         Secondly we will creating the route by taking service name
         oc get svc <here you copy the Name of the Service>
+        
         Finally we will be creating the Route
         oc create route edge <name of the route(any name)> <service name>
         oc create route edge parkmap --service=parksmap
+        
         Now we need to verify the route by using the below command
         oc get route
+        
         ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/9d2ffc4c-c0ac-4691-9d3b-9fe6289a4929)
 
 You can also verify in the openshift web console as well by clicking pod-->Resources at the bottom you will find the Route by clicking on it you will be able to access your application.
