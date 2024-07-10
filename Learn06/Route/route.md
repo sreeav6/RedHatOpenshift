@@ -19,7 +19,7 @@ Here you can create route in the openshift web console while creating deployment
         
         oc create route edge <name of the route(any name)> <service name>
                 
-oc create route edge parkmap --service=parksmap
+        oc create route edge parkmap --service=parksmap
         
 # Now we need to verify the route by using the below command
         
