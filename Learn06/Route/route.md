@@ -13,13 +13,17 @@ Here you can create route in the openshift web console while creating deployment
         
         
         Secondly we will creating the route by taking service name
+        
                 oc get svc <here you copy the Name of the Service>
         
         Finally we will be creating the Route
+        
                 oc create route edge <name of the route(any name)> <service name>
+                
                 oc create route edge parkmap --service=parksmap
         
         Now we need to verify the route by using the below command
+        
                 oc get route
 
 ![image](https://github.com/sreeav6/RedHatOpenshift/assets/139438620/cdef3d09-5393-4232-a8a7-0fcbdda5d223)
