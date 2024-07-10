@@ -1,5 +1,5 @@
 # Here we will see about Route in Openshift
-The Service resource provides internal abstraction and load balancing in openshift environment, if any of the clients (such as users,systems,devices e.t.c)needs to access the application which is outside of the openshift,here openshift uses the concept of routing layer and the data object behind that is **ROUTE**
+The Service resource provides internal abstraction and load balancing in openshift environment, if any of the clients (such as users,systems,devices e.t.c)needs to access the application which is outside of the openshift,here openshift uses the concept of routing layer and the data object behind that is **ROUTE** 
 
 By default openshift router(HAProxy) uses HTTP header of the incoming request to determine where to proxy the connection. 
 You can optionally define the security such as TLS, for the ROUTE. If you want your **Services** and **Pods** needs to be accessed outside of the openshift you need to create a ROUTE.
