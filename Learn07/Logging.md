@@ -18,11 +18,11 @@ Once after you deploy the pod and once the pod is up and running. In the Develop
 
 In the openshift web console we have command line option as well there check with the below commands.
 
-  oc get pods
+          oc get pods
 
   ![image](https://github.com/user-attachments/assets/ef78ddc8-9b60-49f3-b90c-18947726709d)
 
-  oc logs <pod name>
+          oc logs (pod name)
 
   ![image](https://github.com/user-attachments/assets/3a81b858-097b-48ee-8fb4-68a8d971d530)
 
