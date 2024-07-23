@@ -14,3 +14,18 @@ NOTE: Openshift is not against any other logging process, In some cases applicat
 
 Once after you deploy the pod and once the pod is up and running. In the Developer Perspective, from Topology view, click the parksmap entry and then the Resources tab. You should see a View Logs link next to the Pod entry.
 
+# We can audit logs from the command line too
+
+In the openshift web console we have command line option as well there check with the below commands.
+
+  oc get pods
+
+  ![image](https://github.com/user-attachments/assets/ef78ddc8-9b60-49f3-b90c-18947726709d)
+
+  oc logs <pod name>
+
+  ![image](https://github.com/user-attachments/assets/3a81b858-097b-48ee-8fb4-68a8d971d530)
+
+  
+
+
