@@ -15,13 +15,15 @@ To over come this we need to grant permission of the respective name space. We w
 
     oc project (project name)
     
-    <img width="482" alt="image" src="https://github.com/user-attachments/assets/2d6ff031-0368-489e-8089-e87180396f02">
+    
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/2d6ff031-0368-489e-8089-e87180396f02">
     
   we are using oc policy add-role-to-user command to give the predefined view role to the user
 
     oc policy add-role-to-user view -z default
+    
 
-    ![image](https://github.com/user-attachments/assets/a7b0bb32-6bf1-4abe-88dd-e6e024945edd)
+![image](https://github.com/user-attachments/assets/a7b0bb32-6bf1-4abe-88dd-e6e024945edd)
 
   Note: -z flag here we are using with respective to project if you want different project use -n as a param
 
@@ -29,7 +31,7 @@ To over come this we need to grant permission of the respective name space. We w
 
       oc rollout restart deployment (deployment-name)
 
-      ![image](https://github.com/user-attachments/assets/ced0e9aa-5de1-45eb-9d64-743e9f21c1b3)
+![image](https://github.com/user-attachments/assets/ced0e9aa-5de1-45eb-9d64-743e9f21c1b3)
 
   # Now if we observe the logs we won't be seeing any Error kind of information in the logs.
 
