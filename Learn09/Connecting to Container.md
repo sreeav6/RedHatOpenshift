@@ -23,11 +23,11 @@
 
     Here we want to see the application jar file in the container
 
-    oc exec (pod name) -- ls -l /parksmap.jar
+       oc exec (pod name) -- ls -l /parksmap.jar
 ![image](https://github.com/user-attachments/assets/e0baaa35-0d5a-44ed-9a31-cf0cceb5b775)
 
     In order to check all the files under root (/) we can use oc rsh command as well
-    oc rsh (pod name) ls -l /
+       oc rsh (pod name) ls -l /
 ![image](https://github.com/user-attachments/assets/2a1d8882-6b9e-48da-bcdd-866a1bf40101)
     oc rsh (pod name) whoami { you can experiment this }
 
