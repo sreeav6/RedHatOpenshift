@@ -7,3 +7,10 @@
 
        oc get pods
 ![image](https://github.com/user-attachments/assets/654927a1-8847-4441-9f89-a7a8fa838f94)
+
+   Now you can establish a remote shell session into the pod by using the pod name:
+
+      oc rsh (podname)
+![image](https://github.com/user-attachments/assets/5b5e1a99-25d7-42c3-8ce7-78b215ec1ec5)
+
+      
