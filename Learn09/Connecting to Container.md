@@ -26,7 +26,7 @@
        oc exec (pod name) -- ls -l /parksmap.jar
 ![image](https://github.com/user-attachments/assets/e0baaa35-0d5a-44ed-9a31-cf0cceb5b775)
 
-    In order to check all the files under root (/) we can use oc rsh command as well
+   In order to check all the files under root (/) we can use oc rsh command as well
     
        oc rsh (pod name) ls -l /
        
