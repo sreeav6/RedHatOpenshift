@@ -45,6 +45,27 @@ I have just took only few lines of logs in the below screen shot
 
 ![image](https://github.com/user-attachments/assets/9b152199-8a1c-4b87-b4f6-0bfc09429c02)
 
+After the build has completed and successfully:
+
+The S2I process will push the resulting image to the internal OpenShift registry
+
+The Deployment (D) will detect that the image has changed, and this will cause a new deployment to happen.
+
+A ReplicaSet (RS) will be spawned for this new deployment.
+
+The RS will detect no Pods are running and will cause one to be deployed, as our default replica count is just 1.
+
+In the end, when issuing the oc get pods command, you will see that the build Pod has finished (exited) and that an application Pod is in a ready and running state
+
+![image](https://github.com/user-attachments/assets/9273c503-a1c0-417e-9bea-eb58cd7269b0)
+
+Even while creating the application we have created the route as well ( oc get route) this command will give the route, by accessing this route you will get some info
+
+![image](https://github.com/user-attachments/assets/b60f4b84-095d-4032-befe-90993c685f5d)
+
+Since this is a backend application it will not have web interface but can be used 
+
+
 
 
 
