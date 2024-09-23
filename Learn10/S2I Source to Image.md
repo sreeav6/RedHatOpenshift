@@ -32,6 +32,10 @@ You need to input some fields as per this below doc
 
 **https://redhat-scholars.github.io/openshift-starter-guides/rhs-openshift-starter-guides/4.11/nationalparks.html**
 
+Just a small note about UBI:
+----------
+Universal Base Image (UBI) is a type of container base operating system image that Red Hat created and maintains to serve as a foundation for containerized applications. UBI images are OCI-compliant, freely redistributable, and come with complementary runtime languages and packages
+
 After inputing all fields click create and monitor the Builds where you can click Build Option in the left side 
 
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/36ffd6c8-6e93-41d4-982f-e1f5958ca33d">
