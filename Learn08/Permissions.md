@@ -7,7 +7,7 @@ To over come this we need to grant permission of the respective name space. We w
 
 1. Every interaction in openshift environment will go through the OpenShift API. So almost all API's are authenticated and authorized.
 2. Openshift is a declarative platform so few actions are performed by the platform not the user and the end user is nothing but a service account.
-3. OpenShift default service accounts in some projects and it is one which is helping in running the pods, to this service account in our project we need to chnage the permisssions.
+3. OpenShift default service accounts in some projects and it is one which is helping in running the pods, to this service account in our project we need to change the permisssions.
 4. Here we have two options one is changing from UI and othe is using CMD Line
 5. If you want to use using UI in the starting I have shared reference link in that select Permissions Topic where we can do it with UI. But I am going with using CMD Line
 
